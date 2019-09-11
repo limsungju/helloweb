@@ -14,10 +14,12 @@
 		<input type='text' value='' name='email' />
 		<br/>
 		<br/>
+		
 		비밀번호:
 		<input type='password' name='password'/>
 		<br/>
 		<br/>
+		
 		태어난 해:
 		<select name='birth-year'>
 			<option value='1997'>1997 년</option>
@@ -31,6 +33,26 @@
 		</select>
 		<br/>
 		<br/>
+		
+		성별:
+		여<input type='radio' value='female' name='gender' />
+		남<input type='radio' value='man' name='gender' checked='checked' />
+		<br/>
+		<br/>
+		
+		취미:
+		게임<input type='checkbox' name='hobby' value='game' />
+		독서<input type='checkbox' name='hobby' value='reading' />
+		코딩<input type='checkbox' name='hobby' value='codding' />
+		수영<input type='checkbox' name='hobby' value='swimming' />
+		<br/>
+		<br/>
+		
+		자기소개:
+		<br/>
+		<textarea name='self-intro'></textarea> <!-- 공백 하나 하나, 개행까지 값으로 인식  -->
+		<br/>
+		
 		<input type='submit' value="가입" />
 	</form>
 </body>
